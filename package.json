@@ -1,0 +1,29 @@
+{
+  "name": "mgcode-colorify",
+  "version": "1.0.0",
+  "description": "A library to colored your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohitCode17/mgcode-colorify.git"
+  },
+  "keywords": [
+    "colorify logs",
+    "color console log"
+  ],
+  "author": "Mohit Gupta <mohit.codes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohitCode17/mgcode-colorify/issues"
+  },
+  "homepage": "https://github.com/MohitCode17/mgcode-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  },
+  "files": ["lib/**/*"]
+}
